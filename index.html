@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JS_1</title>
+	<script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+		
+
+	<!-- async работает как надо-->
+	<!-- <p>Важная информация теперь не ждёт, пока загрузится скрипт...</p>
+	<script async src="https://js.cx/hello/ads.js?speed=0"></script>
+	<p>...Важная информация!</p> -->
+
+	<!-- async не работает при обычном скрипте с alert ('Этот скрипт легче');-->
+	<!-- <p>Важная информация теперь не ждёт, пока загрузится скрипт...</p>
+	<script type="text/javascript" src="js/script.js"></script>
+	<p>...Важная информация!</p> -->
+
+	<!-- сравнение defer и async -->
+	<!-- async - первым сработает тот скрипт, который раньше загрузится -->
+	<!-- <script async src="https://js.cx/hello/ads.js?speed=0"></script>
+	<script async src="js/script.js"></script> -->
+
+	<!-- defer - по порядку -->
+	<!-- <script defer src="https://js.cx/hello/ads.js?speed=0"></script>
+	<script defer src="js/script.js"></script> -->
+
+
+	<!-- <p>Начинаем считать:</p>
+	  <script>
+	    alert( 'Первый кролик!' );
+	    alert( 'Второй кролик!' );
+	    alert( 'Третий кролик!' );
+	  </script>
+  	<p>Кролики посчитаны!</p> -->
+
+
+</body>
+</html>
